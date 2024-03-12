@@ -1,4 +1,4 @@
-### Hi there 👋
+### 5조 화이팅👋
 
 <!--
 **PKNU-IoT-project/PKNU-IoT-project** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
