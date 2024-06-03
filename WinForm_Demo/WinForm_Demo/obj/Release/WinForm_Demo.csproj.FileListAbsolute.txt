@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\WinForm_Demo\WinForm_Demo\bin\Release\WinForm_Demo.exe.config
+C:\Users\user\Desktop\WinForm_Demo\WinForm_Demo\bin\Release\WinForm_Demo.exe
+C:\Users\user\Desktop\WinForm_Demo\WinForm_Demo\bin\Release\WinForm_Demo.pdb
+C:\Users\user\Desktop\WinForm_Demo\WinForm_Demo\obj\Release\WinForm_Demo.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\WinForm_Demo\WinForm_Demo\obj\Release\WinForm_Demo.Form1.resources
+C:\Users\user\Desktop\WinForm_Demo\WinForm_Demo\obj\Release\WinForm_Demo.Properties.Resources.resources
+C:\Users\user\Desktop\WinForm_Demo\WinForm_Demo\obj\Release\WinForm_Demo.csproj.GenerateResource.cache
+C:\Users\user\Desktop\WinForm_Demo\WinForm_Demo\obj\Release\WinForm_Demo.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\WinForm_Demo\WinForm_Demo\obj\Release\WinForm_Demo.exe
+C:\Users\user\Desktop\WinForm_Demo\WinForm_Demo\obj\Release\WinForm_Demo.pdb
