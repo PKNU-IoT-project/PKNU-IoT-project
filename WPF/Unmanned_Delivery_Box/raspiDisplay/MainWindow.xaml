@@ -16,29 +16,35 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="30" />
             <RowDefinition Height="3*" />
-            <RowDefinition Height="0.5*" />
-            <RowDefinition Height="0.5*" />
+            <RowDefinition Height="1*" />
             <RowDefinition Height="80" />
         </Grid.RowDefinitions>
-        
-        <!-- 맨 위 그리드 -->
-        <Grid Grid.Row="0" Grid.Column="0">
+
+        <Grid Grid.Row="0" Grid.ColumnSpan="3" Background="#002984">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"
+                       Foreground="White" FontSize="16" FontWeight="Bold">
+                Welcome to EtoI3
+            </TextBlock>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Image x:Name="ImgLogo" Source="Resources/etoi3.png" Margin="-54,-19,-54,-55" />
         </Grid>
 
         <Grid Grid.Row="2" Grid.Column="1">
-            <Label Content="Smart Box" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" />
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center">
+                <Run FontSize="25" FontWeight="Bold">Smart Box</Run>
+                <LineBreak/>
+                <Run FontSize="20">스마트 무인택배함</Run>
+            </TextBlock>
         </Grid>
 
-        <Grid Grid.Row="3" Grid.Column="1">
-            <Label Content="스마트 무인택배함" FontSize="20" HorizontalAlignment="Center" Margin="10 0 10 5"/>
-        </Grid>
-
-        <!-- 마지막 그리드 -->
-        <Grid Grid.Row="4" Grid.Column="1" >
-            <Button Width="150" Height="50" x:Name="StartBtn" Content="시작하기" Click="StartBtn_Click" 
+        <Grid Grid.Row="3" Grid.Column="1" >
+            <Button Width="150" Height="50" x:Name="StartBtn" Content="시작하기" FontSize="15" FontWeight="Bold"
                     Style="{StaticResource MaterialDesignRaisedDarkButton}" 
                     materialDesign:ButtonAssist.CornerRadius="25" 
-                    FontSize="15" FontWeight="Bold"> <!-- 폰트 적용할 것! -->
+                    Click="StartBtn_Click" Margin="0,0,0,10">
+                <!-- 폰트 적용할 것! -->
             </Button>
         </Grid>
     </Grid>
