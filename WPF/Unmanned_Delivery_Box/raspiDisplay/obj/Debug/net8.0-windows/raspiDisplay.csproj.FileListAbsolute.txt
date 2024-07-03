@@ -31,3 +31,4 @@ C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net
 C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\userType.baml
 C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\sender.g.cs
 C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\sender.baml
+C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
