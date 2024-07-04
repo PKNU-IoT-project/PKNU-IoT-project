@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\App.xaml
-41801870757
+71814064891
 
-11-24787247
+14183236568
 201-1754868270
-MainWindow.xaml;receiver.xaml;sender.xaml;userType.xaml;
+MainWindow.xaml;numCheck.xaml;numCheck2.xaml;numChoice.xaml;receiver.xaml;sender.xaml;userType.xaml;
 
-True
+False
 

@@ -20,16 +20,17 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Column="0" Grid.ColumnSpan="2" Background="#002984">
+            <Grid.Effect>
+                <DropShadowEffect Color="Gray" ShadowDepth="5" Opacity="0.5"/>
+            </Grid.Effect>
             <StackPanel Orientation="Horizontal">
-                <Button VerticalAlignment="Center" Width="30" Height="40">
-                    <StackPanel Orientation="Horizontal">
-                        <materialDesign:PackIcon Kind="ArrowLeftThinCircleOutline" Margin="5" /> <!-- 수정~ -->
-                    </StackPanel>
+                <Button x:Name="backBtn" Width="30" Height="30" Padding="0"
+                        Style="{StaticResource MaterialDesignFlatMidBgButton}">
+                    <materialDesign:PackIcon Kind="ArrowLeftCircleOutline" />
                 </Button>
-                <Button VerticalAlignment="Center" Width="30" Height="40">
-                    <StackPanel Orientation="Horizontal">
-                        <materialDesign:PackIcon Kind="HomeCircleOutline" Margin="5"/>
-                    </StackPanel>
+                <Button x:Name="homeBtn" Width="30" Height="30" Padding="0"
+                        Style="{StaticResource MaterialDesignFlatMidBgButton}">
+                    <materialDesign:PackIcon Kind="HomeCircleOutline" />
                 </Button>
                 <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" Text="EtoI3's Smart Box"
                         Foreground="White" FontSize="13"/>

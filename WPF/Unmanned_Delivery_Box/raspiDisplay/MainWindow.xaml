@@ -21,9 +21,12 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0" Grid.ColumnSpan="3" Background="#002984">
+            <Grid.Effect>
+                <DropShadowEffect Color="Gray" ShadowDepth="5" Opacity="0.5"/>
+            </Grid.Effect>
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"
                        Foreground="White" FontSize="16" FontWeight="Bold">
-                Welcome to EtoI3
+                Welcome to EtoI3!!
             </TextBlock>
         </Grid>
 
@@ -33,9 +36,9 @@
 
         <Grid Grid.Row="2" Grid.Column="1">
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center">
-                <Run FontSize="25" FontWeight="Bold">Smart Box</Run>
+                <Run FontSize="25" FontWeight="ExtraBold">Smart Box</Run>
                 <LineBreak/>
-                <Run FontSize="20">스마트 무인택배함</Run>
+                <Run FontSize="20" FontWeight="Bold">스마트 무인택배함</Run>
             </TextBlock>
         </Grid>
 

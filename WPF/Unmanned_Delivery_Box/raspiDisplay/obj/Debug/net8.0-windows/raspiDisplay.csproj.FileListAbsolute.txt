@@ -32,3 +32,7 @@ C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net
 C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\sender.g.cs
 C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\sender.baml
 C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\numCheck.g.cs
+C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\numChoice.g.cs
+C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\receiver.g.cs
+C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\numCheck2.g.cs
