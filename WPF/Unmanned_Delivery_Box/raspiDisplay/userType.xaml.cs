@@ -23,5 +23,19 @@ namespace raspiDisplay
         {
             InitializeComponent();
         }
+
+        private void recvBtn_Click(object sender, RoutedEventArgs e)
+        {
+            raspiDisplay.receiver recv = new raspiDisplay.receiver();
+            recv.Show();
+            this.Close();
+        }
+
+        private void sendBtn_Click(object sender, RoutedEventArgs e)
+        {
+            raspiDisplay.sender send = new raspiDisplay.sender();
+            send.Show();
+            this.Close();
+        }
     }
 }

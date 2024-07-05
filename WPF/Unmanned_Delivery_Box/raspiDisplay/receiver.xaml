@@ -1,4 +1,4 @@
-﻿<Window x:Class="raspiDisplay.sender"
+﻿<Window x:Class="raspiDisplay.receiver"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -7,7 +7,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:domain="clr-namespace:MaterialDesignDemo.domain"
         mc:Ignorable="d"
-        Title="sender" Height="450" Width="800">
+        Title="receiver" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
@@ -17,6 +17,7 @@
             <RowDefinition Height="30" />
             <RowDefinition Height="1.1*" />
             <RowDefinition Height="2*" />
+            <RowDefinition Height="0.1*" />
         </Grid.RowDefinitions>
 
         <Grid Grid.Column="0" Grid.ColumnSpan="2" Background="#002984">
@@ -25,11 +26,11 @@
             </Grid.Effect>
             <StackPanel Orientation="Horizontal">
                 <Button x:Name="backBtn_2" Width="30" Height="30" Padding="0"
-                        Style="{StaticResource MaterialDesignFlatMidBgButton}">
+                        Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="backBtn_2_Click">
                     <materialDesign:PackIcon Kind="ArrowLeftCircleOutline" />
                 </Button>
                 <Button x:Name="homeBtn_2" Width="30" Height="30" Padding="0"
-                        Style="{StaticResource MaterialDesignFlatMidBgButton}">
+                        Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="homeBtn_2_Click">
                     <materialDesign:PackIcon Kind="HomeCircleOutline" />
                 </Button>
                 <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" Text="EtoI3's Smart Box"

@@ -151,11 +151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\raspiDisplay.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\raspiDisplay.csproj",
       "projectName": "raspiDisplay",
-      "projectPath": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\raspiDisplay.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\raspiDisplay.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

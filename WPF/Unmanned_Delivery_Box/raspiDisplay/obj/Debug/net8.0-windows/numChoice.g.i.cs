@@ -56,7 +56,7 @@ namespace raspiDisplay {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/raspiDisplay;V1.0.0.0;component/numchoice.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/raspiDisplay;component/numchoice.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\numChoice.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

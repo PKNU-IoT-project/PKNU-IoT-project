@@ -23,5 +23,20 @@ namespace raspiDisplay
         {
             InitializeComponent();
         }
+
+        private void backBtn_Click(object sender, RoutedEventArgs e)
+        {
+            raspiDisplay.userType usertype = new raspiDisplay.userType();
+            usertype.Show();
+            this.Close();
+        }
+
+
+        private void homeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            raspiDisplay.MainWindow main = new raspiDisplay.MainWindow();
+            main.Show();
+            this.Close();
+        }
     }
 }

@@ -24,7 +24,11 @@ namespace raspiDisplay
 
         private void StartBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            raspiDisplay.userType usertype = new raspiDisplay.userType();
+            // 모달 -> usertype.ShowDialog();
+            // 모달리스 -> usertype.Show();
+            usertype.Show();
+            this.Close();
         }
     }
 }

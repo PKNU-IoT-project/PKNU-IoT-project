@@ -16,7 +16,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Resources\3f51b5.png" />
+    <None Remove="Resources\a9a9a9.png" />
     <None Remove="Resources\etoi3.png" />
+    <None Remove="Resources\package.png" />
+    <None Remove="Resources\receiver.png" />
+    <None Remove="Resources\sender.png" />
+    <None Remove="Resources\storage.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,9 +30,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\3f51b5.png" />
+    <Resource Include="Resources\a9a9a9.png" />
     <Resource Include="Resources\etoi3.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Resources\package.png" />
+    <Resource Include="Resources\receiver.png" />
+    <Resource Include="Resources\sender.png" />
+    <Resource Include="Resources\storage.png" />
   </ItemGroup>
 
   <ItemGroup>

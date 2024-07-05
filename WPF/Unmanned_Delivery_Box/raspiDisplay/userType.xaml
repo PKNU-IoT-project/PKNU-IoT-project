@@ -35,16 +35,20 @@
         <Grid Grid.Column="1" Grid.Row="1" Grid.RowSpan="2">
             <Button x:Name="recvBtn" Width="280" Height="160" BorderBrush="DarkGray"
                     Style="{StaticResource MaterialDesignPaperDarkButton}"
-                    materialDesign:ButtonAssist.CornerRadius="25">
-                
+                    materialDesign:ButtonAssist.CornerRadius="25" Click="recvBtn_Click">
+                <Image Source="Resources/receiver.png" Margin="5"/>
             </Button>
         </Grid>
 
         <Grid Grid.Column="3" Grid.Row="1" Grid.RowSpan="2">
             <Button x:Name="sendBtn" Width="280" Height="160" BorderBrush="DarkGray"
                     Style="{StaticResource MaterialDesignPaperDarkButton}"
-                    materialDesign:ButtonAssist.CornerRadius="25">
-                <!-- 이미지 넣기! -->
+                    materialDesign:ButtonAssist.CornerRadius="25" Click="sendBtn_Click">
+                <Image Source="Resources/sender.png" RenderTransformOrigin="0.5,0.5" Margin="5">
+                    <Image.RenderTransform>
+                        <ScaleTransform ScaleX="-1" />
+                    </Image.RenderTransform>
+                </Image>
             </Button>
         </Grid>
 

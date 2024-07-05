@@ -17,6 +17,7 @@
             <RowDefinition Height="30" />
             <RowDefinition Height="1.1*" />
             <RowDefinition Height="2*" />
+            <RowDefinition Height="0.1*" />
         </Grid.RowDefinitions>
 
         <Grid Grid.Column="0" Grid.ColumnSpan="2" Background="#002984">
@@ -25,11 +26,11 @@
             </Grid.Effect>
             <StackPanel Orientation="Horizontal">
                 <Button x:Name="backBtn" Width="30" Height="30" Padding="0"
-                        Style="{StaticResource MaterialDesignFlatMidBgButton}">
+                        Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="backBtn_Click">
                     <materialDesign:PackIcon Kind="ArrowLeftCircleOutline" />
                 </Button>
                 <Button x:Name="homeBtn" Width="30" Height="30" Padding="0"
-                        Style="{StaticResource MaterialDesignFlatMidBgButton}">
+                        Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="homeBtn_Click">
                     <materialDesign:PackIcon Kind="HomeCircleOutline" />
                 </Button>
                 <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" Text="EtoI3's Smart Box"

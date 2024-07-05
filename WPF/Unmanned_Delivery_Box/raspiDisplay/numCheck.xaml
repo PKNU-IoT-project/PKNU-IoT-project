@@ -22,7 +22,7 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3">
-            <Image Source="Resources/package4.png" Height="230" VerticalAlignment="Bottom" />
+            <Image Source="Resources/package.png" Height="230" VerticalAlignment="Bottom" />
         </Grid>
 
         <Grid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="5">
