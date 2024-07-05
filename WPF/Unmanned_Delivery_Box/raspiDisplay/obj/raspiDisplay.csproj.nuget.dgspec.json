@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\raspiDisplay.csproj": {}
+    "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\raspiDisplay.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\raspiDisplay.csproj": {
+    "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\raspiDisplay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\raspiDisplay.csproj",
+        "projectUniqueName": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\raspiDisplay.csproj",
         "projectName": "raspiDisplay",
-        "projectPath": "C:\\Users\\user\\Desktop\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\raspiDisplay.csproj",
+        "projectPath": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\raspiDisplay.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\obj\\",
+        "outputPath": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -38,5 +38,63 @@ namespace raspiDisplay
             main.Show();
             this.Close();
         }
+
+        private void Btn1_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox.Text += "1";
+        }
+
+        private void Btn2_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox.Text += "2";
+        }
+
+        private void Btn3_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox.Text += "3";
+        }
+
+        private void Btn4_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox.Text += "4";
+        }
+
+        private void Btn5_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox.Text += "5";
+        }
+
+        private void Btn6_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox.Text += "6";
+        }
+
+        private void Btn7_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox.Text += "7";
+        }
+
+        private void Btn8_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox.Text += "8";
+        }
+
+        private void Btn9_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox.Text += "9";
+        }
+
+        private void Btn11_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox.Text += "0";
+        }
+
+        private void Btn10_Click(object sender, RoutedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(this.NumTxtBox.Text)) // string.IsNullOrEmpty -> 문자열이 비어있거나 null일때 + !연산자(ex. !true == False)
+            {
+                this.NumTxtBox.Text = this.NumTxtBox.Text.Substring(0, this.NumTxtBox.Text.Length - 1); // substring -> 문자열 추출
+            }
+        }
     }
 }

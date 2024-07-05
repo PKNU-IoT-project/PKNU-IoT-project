@@ -50,12 +50,12 @@
 
         <Grid Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center">
             <StackPanel>
-                <TextBox x:Name="NumTxtBox_2" materialDesign:HintAssist.Hint="휴대폰 번호 입력" Width="320" Margin="0,70,0,0"
+                <TextBox x:Name="NumTxtBox_2" materialDesign:HintAssist.Hint="휴대폰 번호 입력" Width="320" Margin="10,70,0,0"
                          Style="{StaticResource MaterialDesignOutlinedTextBox}">
                     <TextBox.Text>
                         <Binding Path="Text2" UpdateSourceTrigger="PropertyChanged">
                             <Binding.ValidationRules>
-                                <domain:NotEmptyValidationRule ValidatesOnTargetUpdated="True"/>
+                                <domain:NotEmptyValidationRule ValidatesOnTargetUpdated="False"/>
                             </Binding.ValidationRules>
                         </Binding>
                     </TextBox.Text>
@@ -76,17 +76,17 @@
                 <Button x:Name="Btn1_2" Width="70" Height="53" Margin="10,0,13,0"
                         Content="1" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22">
+                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn1_2_Click">
                 </Button>
                 <Button x:Name="Btn2_2" Width="70" Height="53" Margin="13,0,13,0"
                         Content="2" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22">
+                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn2_2_Click">
                 </Button>
                 <Button x:Name="Btn3_2" Width="70" Height="53" Margin="13,0,10,0"
                         Content="3" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22">
+                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn3_2_Click">
                 </Button>
             </StackPanel>
 
@@ -95,17 +95,17 @@
                 <Button x:Name="Btn4_2" Width="70" Height="53" Margin="10,0,13,0"
                         Content="4" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22">
+                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn4_2_Click">
                 </Button>
                 <Button x:Name="Btn5_2" Width="70" Height="53" Margin="13,0,13,0"
                         Content="5" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22">
+                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn5_2_Click">
                 </Button>
                 <Button x:Name="Btn6_2" Width="70" Height="53" Margin="13,0,10,0"
                         Content="6" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22">
+                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn6_2_Click">
                 </Button>
             </StackPanel>
 
@@ -114,17 +114,17 @@
                 <Button x:Name="Btn7_2" Width="70" Height="53" Margin="10,0,13,0"
                         Content="7" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22">
+                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn7_2_Click">
                 </Button>
                 <Button x:Name="Btn8_2" Width="70" Height="53" Margin="13,0,13,0"
                         Content="8" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22">
+                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn8_2_Click">
                 </Button>
                 <Button x:Name="Btn9_2" Width="70" Height="53" Margin="13,0,10,0"
                         Content="9" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22">
+                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn9_2_Click">
                 </Button>
             </StackPanel>
 
@@ -139,7 +139,7 @@
                 <Button x:Name="Btn11_2" Width="70" Height="53" Margin="13,0,13,0"
                         Content="0" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22">
+                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn11_2_Click">
                 </Button>
                 <Button x:Name="Btn12_2" Width="70" Height="53" Margin="13,0,10,0"
                         Content="OK" FontSize="18"

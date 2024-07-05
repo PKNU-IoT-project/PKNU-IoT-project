@@ -37,5 +37,55 @@ namespace raspiDisplay
             main.Show();
             this.Close();
         }
+
+        private void Btn1_2_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox_2.Text += "1";
+        }
+
+        private void Btn2_2_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox_2.Text += "2";
+        }
+
+        private void Btn3_2_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox_2.Text += "3";
+        }
+
+        private void Btn4_2_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox_2.Text += "4";
+        }
+
+        private void Btn5_2_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox_2.Text += "5";
+        }
+
+        private void Btn6_2_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox_2.Text += "6";
+        }
+
+        private void Btn7_2_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox_2.Text += "7";
+        }
+
+        private void Btn8_2_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox_2.Text += "8";
+        }
+
+        private void Btn9_2_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox_2.Text += "9";
+        }
+
+        private void Btn11_2_Click(object sender, RoutedEventArgs e)
+        {
+            this.NumTxtBox_2.Text += "0";
+        }
     }
 }

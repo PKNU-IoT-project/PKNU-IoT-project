@@ -79,3 +79,9 @@ C:\Users\user\Desktop\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-wi
 C:\Users\user\Desktop\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\ref\raspiDisplay.dll
 C:\Users\user\Desktop\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\Page1.g.cs
 C:\Users\user\Desktop\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\Page1.baml
+C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\Page1.g.cs
+C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\numCheck.baml
+C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\numCheck2.baml
+C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\numChoice.baml
+C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\Page1.baml
+C:\sources\PKNU-IoT-project\WPF\Unmanned_Delivery_Box\raspiDisplay\obj\Debug\net8.0-windows\receiver.baml
