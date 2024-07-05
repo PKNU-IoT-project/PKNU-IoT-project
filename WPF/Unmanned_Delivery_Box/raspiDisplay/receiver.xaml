@@ -51,7 +51,7 @@
         <Grid Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center">
             <StackPanel>
                 <TextBox x:Name="NumTxtBox_2" materialDesign:HintAssist.Hint="휴대폰 번호 입력" Width="320" Margin="10,70,0,0"
-                         Style="{StaticResource MaterialDesignOutlinedTextBox}">
+                         Style="{StaticResource MaterialDesignOutlinedTextBox}" TextChanged="NumTxtBox_2_TextChanged">
                     <TextBox.Text>
                         <Binding Path="Text2" UpdateSourceTrigger="PropertyChanged">
                             <Binding.ValidationRules>
@@ -133,7 +133,7 @@
                 <Button x:Name="Btn10_2" Width="70" Height="53" Margin="10,0,13,0"
                         BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22">
+                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn10_2_Click">
                     <materialDesign:PackIcon Kind="BackspaceOutline" Height="20" Width="20" />
                 </Button>
                 <Button x:Name="Btn11_2" Width="70" Height="53" Margin="13,0,13,0"

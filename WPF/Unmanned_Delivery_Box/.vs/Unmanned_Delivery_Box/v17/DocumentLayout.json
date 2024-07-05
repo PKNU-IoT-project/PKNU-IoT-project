@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|c:\\sources\\pknu-iot-project\\wpf\\unmanned_delivery_box\\raspidisplay\\receiver.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|solutionrelative:raspidisplay\\receiver.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|c:\\sources\\pknu-iot-project\\wpf\\unmanned_delivery_box\\raspidisplay\\receiver.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|solutionrelative:raspidisplay\\receiver.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|c:\\sources\\pknu-iot-project\\wpf\\unmanned_delivery_box\\raspidisplay\\sender.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|solutionrelative:raspidisplay\\sender.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +19,12 @@
       "RelativeMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|solutionrelative:raspidisplay\\sender.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|c:\\sources\\pknu-iot-project\\wpf\\unmanned_delivery_box\\raspidisplay\\receiver.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|solutionrelative:raspidisplay\\receiver.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|c:\\sources\\pknu-iot-project\\wpf\\unmanned_delivery_box\\raspidisplay\\numcheck2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|solutionrelative:raspidisplay\\numcheck2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|c:\\sources\\pknu-iot-project\\wpf\\unmanned_delivery_box\\raspidisplay\\receiver.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|solutionrelative:raspidisplay\\receiver.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|c:\\sources\\pknu-iot-project\\wpf\\unmanned_delivery_box\\raspidisplay\\numchoice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|solutionrelative:raspidisplay\\numchoice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D96A2F57-205F-494F-9762-8B6CFB476D60}|raspiDisplay\\raspiDisplay.csproj|c:\\sources\\pknu-iot-project\\wpf\\unmanned_delivery_box\\raspidisplay\\usertype.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -46,19 +54,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "raspiDisplay\\MainWindow.xaml",
-              "ToolTip": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\MainWindow.xaml",
-              "RelativeToolTip": "raspiDisplay\\MainWindow.xaml",
+              "DocumentIndex": 4,
+              "Title": "numCheck2.xaml",
+              "DocumentMoniker": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\numCheck2.xaml",
+              "RelativeDocumentMoniker": "raspiDisplay\\numCheck2.xaml",
+              "ToolTip": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\numCheck2.xaml",
+              "RelativeToolTip": "raspiDisplay\\numCheck2.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-05T03:06:12.226Z",
+              "WhenOpened": "2024-07-05T08:10:47.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "numChoice.xaml",
+              "DocumentMoniker": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\numChoice.xaml",
+              "RelativeDocumentMoniker": "raspiDisplay\\numChoice.xaml",
+              "ToolTip": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\numChoice.xaml",
+              "RelativeToolTip": "raspiDisplay\\numChoice.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-05T06:45:40.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "userType.xaml",
               "DocumentMoniker": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\userType.xaml",
               "RelativeDocumentMoniker": "raspiDisplay\\userType.xaml",
@@ -70,7 +90,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "receiver.xaml.cs",
+              "DocumentMoniker": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\receiver.xaml.cs",
+              "RelativeDocumentMoniker": "raspiDisplay\\receiver.xaml.cs",
+              "ToolTip": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\receiver.xaml.cs",
+              "RelativeToolTip": "raspiDisplay\\receiver.xaml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:43:57.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "raspiDisplay\\MainWindow.xaml",
+              "ToolTip": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\MainWindow.xaml",
+              "RelativeToolTip": "raspiDisplay\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-05T03:06:12.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "sender.xaml",
               "DocumentMoniker": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\sender.xaml",
               "RelativeDocumentMoniker": "raspiDisplay\\sender.xaml",
@@ -82,33 +127,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "sender.xaml.cs",
               "DocumentMoniker": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\sender.xaml.cs",
               "RelativeDocumentMoniker": "raspiDisplay\\sender.xaml.cs",
               "ToolTip": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\sender.xaml.cs",
               "RelativeToolTip": "raspiDisplay\\sender.xaml.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAiwFEAAAAVAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAwFkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T02:45:39.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "receiver.xaml.cs",
-              "DocumentMoniker": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\receiver.xaml.cs",
-              "RelativeDocumentMoniker": "raspiDisplay\\receiver.xaml.cs",
-              "ToolTip": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\receiver.xaml.cs",
-              "RelativeToolTip": "raspiDisplay\\receiver.xaml.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAswC8AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T02:43:57.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "receiver.xaml",
               "DocumentMoniker": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\receiver.xaml",
               "RelativeDocumentMoniker": "raspiDisplay\\receiver.xaml",
@@ -120,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "userType.xaml.cs",
               "DocumentMoniker": "C:\\sources\\PKNU-IoT-project\\WPF\\Unmanned_Delivery_Box\\raspiDisplay\\userType.xaml.cs",
               "RelativeDocumentMoniker": "raspiDisplay\\userType.xaml.cs",
@@ -128,8 +160,7 @@
               "RelativeToolTip": "raspiDisplay\\userType.xaml.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAADwvxwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T02:35:01.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T02:35:01.992Z"
             }
           ]
         }

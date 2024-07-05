@@ -51,7 +51,7 @@
         <Grid Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center">
             <StackPanel>
                 <TextBox x:Name="NumTxtBox" materialDesign:HintAssist.Hint="휴대폰 번호 입력" Width="320" Margin="10,70,0,0"
-                         Style="{StaticResource MaterialDesignOutlinedTextBox}">
+                         Style="{StaticResource MaterialDesignOutlinedTextBox}" TextChanged="NumTxtBox_TextChanged">
                     <TextBox.Text>
                         <Binding Path="Text2" UpdateSourceTrigger="PropertyChanged">
                             <Binding.ValidationRules>
