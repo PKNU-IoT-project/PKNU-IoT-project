@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("raspiDisplay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0942e2ccb657f7e27ffeb365ecb922dd745bc4f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28a8c2a67ccf1eb648b4953b65ce550cafc20eb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("raspiDisplay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("raspiDisplay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
