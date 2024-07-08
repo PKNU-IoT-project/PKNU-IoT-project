@@ -58,6 +58,5 @@ namespace raspiDisplay
                 NumTxtBox.CaretIndex = NumTxtBox.Text.Length;
             }
         }
-
     }
 }
