@@ -25,12 +25,12 @@
                 <DropShadowEffect Color="Gray" ShadowDepth="5" Opacity="0.5"/>
             </Grid.Effect>
             <StackPanel Orientation="Horizontal">
-                <Button x:Name="backBtn" Width="30" Height="30" Padding="0"
-                        Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="backBtn_Click">
+                <Button Width="30" Height="30" Padding="0"
+                        Style="{StaticResource MaterialDesignFlatMidBgButton}">
                     <materialDesign:PackIcon Kind="ArrowLeftCircleOutline" />
                 </Button>
-                <Button x:Name="homeBtn" Width="30" Height="30" Padding="0"
-                        Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="homeBtn_Click">
+                <Button Width="30" Height="30" Padding="0"
+                        Style="{StaticResource MaterialDesignFlatMidBgButton}">
                     <materialDesign:PackIcon Kind="HomeCircleOutline" />
                 </Button>
                 <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" Text="EtoI3's Smart Box"
@@ -50,8 +50,8 @@
 
         <Grid Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center">
             <StackPanel>
-                <TextBox x:Name="NumTxtBox" materialDesign:HintAssist.Hint="휴대폰 번호 입력" Width="320" Margin="10,70,0,0"
-                         Style="{StaticResource MaterialDesignOutlinedTextBox}" TextChanged="NumTxtBox_TextChanged">
+                <TextBox materialDesign:HintAssist.Hint="휴대폰 번호 입력" Width="320" Margin="10,70,0,0"
+                         Style="{StaticResource MaterialDesignOutlinedTextBox}">
                     <TextBox.Text>
                         <Binding Path="Text2" UpdateSourceTrigger="PropertyChanged">
                             <Binding.ValidationRules>
@@ -73,75 +73,75 @@
             
             <!-- 첫번째 행 -->            
             <StackPanel Orientation="Horizontal" Grid.Row="0">
-                <Button x:Name="Btn1" Width="70" Height="53" Margin="10,0,13,0"
+                <Button Width="70" Height="53" Margin="10,0,13,0"
                         Content="1" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn1_Click">
+                        materialDesign:ButtonAssist.CornerRadius="22">
                 </Button>
-                <Button x:Name="Btn2" Width="70" Height="53" Margin="13,0,13,0"
+                <Button Width="70" Height="53" Margin="13,0,13,0"
                         Content="2" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn2_Click">
+                        materialDesign:ButtonAssist.CornerRadius="22">
                 </Button>
-                <Button x:Name="Btn3" Width="70" Height="53" Margin="13,0,10,0"
+                <Button Width="70" Height="53" Margin="13,0,10,0"
                         Content="3" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn3_Click">
+                        materialDesign:ButtonAssist.CornerRadius="22">
                 </Button>
             </StackPanel>
 
             <!-- 두번째 행 -->
             <StackPanel Orientation="Horizontal" Grid.Row="1">
-                <Button x:Name="Btn4" Width="70" Height="53" Margin="10,0,13,0"
+                <Button Width="70" Height="53" Margin="10,0,13,0"
                         Content="4" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn4_Click">
+                        materialDesign:ButtonAssist.CornerRadius="22">
                 </Button>
-                <Button x:Name="Btn5" Width="70" Height="53" Margin="13,0,13,0"
+                <Button Width="70" Height="53" Margin="13,0,13,0"
                         Content="5" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn5_Click">
+                        materialDesign:ButtonAssist.CornerRadius="22">
                 </Button>
-                <Button x:Name="Btn6" Width="70" Height="53" Margin="13,0,10,0"
+                <Button Width="70" Height="53" Margin="13,0,10,0"
                         Content="6" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn6_Click">
+                        materialDesign:ButtonAssist.CornerRadius="22">
                 </Button>
             </StackPanel>
 
             <!-- 세번째 행 -->
             <StackPanel Orientation="Horizontal" Grid.Row="2">
-                <Button x:Name="Btn7" Width="70" Height="53" Margin="10,0,13,0"
+                <Button Width="70" Height="53" Margin="10,0,13,0"
                         Content="7" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn7_Click">
+                        materialDesign:ButtonAssist.CornerRadius="22">
                 </Button>
-                <Button x:Name="Btn8" Width="70" Height="53" Margin="13,0,13,0"
+                <Button Width="70" Height="53" Margin="13,0,13,0"
                         Content="8" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn8_Click">
+                        materialDesign:ButtonAssist.CornerRadius="22">
                 </Button>
-                <Button x:Name="Btn9" Width="70" Height="53" Margin="13,0,10,0"
+                <Button Width="70" Height="53" Margin="13,0,10,0"
                         Content="9" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn9_Click">
+                        materialDesign:ButtonAssist.CornerRadius="22">
                 </Button>
             </StackPanel>
 
             <!-- 네번째 행 -->
             <StackPanel Orientation="Horizontal" Grid.Row="3">
-                <Button x:Name="Btn10" Width="70" Height="53" Margin="10,0,13,0"
+                <Button Width="70" Height="53" Margin="10,0,13,0"
                         BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn10_Click">
+                        materialDesign:ButtonAssist.CornerRadius="22">
                     <materialDesign:PackIcon Kind="BackspaceOutline" Height="20" Width="20" />
                 </Button>
-                <Button x:Name="Btn11" Width="70" Height="53" Margin="13,0,13,0"
+                <Button Width="70" Height="53" Margin="13,0,13,0"
                         Content="0" FontSize="20" BorderBrush="DarkGray" Foreground="Black"
                         Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22" Click="Btn11_Click">
+                        materialDesign:ButtonAssist.CornerRadius="22">
                 </Button>
-                <Button x:Name="Btn12" Width="70" Height="53" Margin="13,0,10,0"
+                <Button Width="70" Height="53" Margin="13,0,10,0"
                         Content="OK" FontSize="18"
                         Style="{StaticResource MaterialDesignRaisedDarkButton}"
                         materialDesign:ButtonAssist.CornerRadius="22">
